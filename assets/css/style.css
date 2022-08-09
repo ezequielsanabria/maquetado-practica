@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2? family= Fraunces:opsz,wght@9..144,100 & family= Open+Sans:wght@300;400;700 & family= Roboto +Mono:peso@100 & family= Uchen & display=swap');
+
+
+*{
+    font-family: 'Uchen', serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #DBD0BF;
+}
+
+.logo{
+    margin-top: 2.5rem;
+}
+.navbar{
+    margin-top: -4%;
+}
+
+
+/*redes sociales*/
+ul.list-group.list-group-horizontal{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-width: 0;
+    margin-top:4%;
+}
+
+i.fa-brands.fa-facebook.fa-lg:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+    color:aliceblue;
+}
+i.fa-brands.fa-instagram.fa-lg:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+    color:aliceblue;
+}
+
+i.fa-solid.fa-envelope:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+    color:aliceblue;
+}
+
+.dashboard{
+    margin-top: -0.4rem;
+}
+
+
+
+i.fa-solid.fa-user-lock.fa-lg:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+    color:aliceblue;
+}
+
+/*baner*/
+#banner{
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: 100%;
+    margin: auto;
+    margin: 1%;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    z-index: 0;
+
+   
+}
+
+/*foto-perfil*/
+.rounded-circle.w-25{
+    width: 12rem !important;
+    position: absolute;
+    z-index:1;
+    background-color: #DBD0BF;
+    height: auto;
+    margin-top: -7.5rem;
+    margin-left: 2.5rem;
+   
+}
+
+.nombre{
+    position: absolute;
+    z-index:1;
+    height: auto;
+    margin-top: 4.5rem;
+    margin-left: 3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
